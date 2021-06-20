@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Map"
+        android:id="@+id/map_nav"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name" />
+
+    <item
+        android:title="Fitness"
+        android:id="@+id/fitness_nav"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name_2"/>
+    <item
+        android:title="Sign Out"
+        android:id="@+id/signout_nav"
+        app:showAsAction="always"/>
+</menu>
